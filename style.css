@@ -1,0 +1,134 @@
+body{
+    background-color:rgb(14, 6, 40);
+    margin:0px;
+  }
+
+  
+  p{
+    margin:0px;
+  }
+
+  #port{
+    font-size:medium;
+  }
+
+  /* Title CSS */
+  .container1{
+    background-image:url("https://nexttechnology.io/app/uploads/2022/01/13.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:43rem;
+    width:100%;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    align-content:center;
+    margin-bottom:8px;
+  }
+
+  .para{
+    width:51%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-content:center;
+    color:white;
+    text-align:center;
+  }
+  
+  .para button{
+    width:50%;
+    padding:0.5rem;
+    margin-top:3rem;
+    cursor:pointer;
+    border:4px solid black;
+    color:white;
+    background:#1c1c63;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    align-items: center;
+    font-size: larger;
+    border-radius:8px;
+  } 
+
+  .para a{
+    color:white;
+  }
+
+  p{
+    font-size:3rem;
+    font-family: "Sacramento", cursive;
+  }
+
+  .btn{
+    text-align:center;
+    padding:1rem;
+    cursor:pointer;
+    color:white;
+    font-weight: bolder;
+    display:inline-block;
+    border:4px solid black;
+    width:100%;
+    font-size: large;
+    letter-spacing: 1px;
+    background-color: #1c1c63;
+    margin-bottom:8px;
+    border-radius:8px;
+  }
+
+  #photo{
+    border-radius: 50%;
+    height:15rem;
+    width:15rem;
+  }  
+
+  .profile{
+    text-align:center;
+    margin-top:6rem;
+    margin-bottom:6rem;
+    color:white;
+  }
+
+  .intro{
+    width:30%;
+    margin:auto;
+  }
+
+  .profile p{
+    margin:2rem;
+  }
+
+  footer{
+    background-color:black;
+    text-align:center;
+    margin-top:4rem;
+    padding:2rem;
+    color:white;
+  }
+
+  footer div{
+    display:flex;
+    justify-content:space-around;
+    font-size: larger;
+  }
+
+  footer p{
+    font-weight:bold;
+  }
+
+  footer p,div{
+    margin-bottom:2rem;
+  }
+
+  @media (max-width:352px){
+    .para p{
+      font-size:x-large;
+    }
+
+    .para button{
+      font-size: small;
+      border:1.5px solid black;
+      border-radius:8px;
+    }
+  }
