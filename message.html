@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text me hello page</title>
+</head>
+
+<style>
+
+    body{
+        margin:0px;  
+        background-color: rgb(10, 9, 9);
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        align-content:center;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h3{
+        color:white;
+        font-size:larger;
+    }
+
+    #btn{
+        width:60%;
+        padding:0.2rem;
+        background-color: rgb(141, 141, 179);
+        font-size: 1rem;
+        border-radius:8.5px;
+    }
+
+
+</style>
+<body>
+    <div class="container">
+        <h3>Text Me Something</h3>
+        <textarea cols="50" rows="20" id="msg">Message</textarea><br><br>
+        <button id="btn">Send</button>
+    </div>
+</body>
+</html>
