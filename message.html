@@ -9,8 +9,7 @@
 <style>
 
     body{
-        margin:0px;  
-        background-color: rgb(10, 9, 9);
+        background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm378-09-x.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=dc095aeb8ad2929b3b13b7ba25fa42ff");
         display:flex;
         justify-content:center;
         flex-wrap:wrap;
@@ -22,22 +21,35 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      text-align:center;
+      padding:4rem;
     }
 
-    h3{
+    .container h3{
         color:white;
-        font-size:larger;
+        font-size:4rem;
     }
 
+    textarea{
+        border-radius:6px;
+    }
     #btn{
         width:60%;
         padding:0.2rem;
         background-color: rgb(141, 141, 179);
-        font-size: 1rem;
+        font-size: 1.2rem;
         border-radius:8.5px;
     }
 
-
+    @media (max-width:434px)  {
+        textarea {
+            height: auto!important;
+            width: 46vh;
+        }
+        .container h3{
+            font-size:medium;
+        }
+    }
 </style>
 <body>
     <div class="container">
